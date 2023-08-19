@@ -1,0 +1,75 @@
+body {
+    background-color: #1b0742;
+    color: white;
+    font-size: 30px; 
+}
+header {
+    text-align: center;
+    font-size: 75px;
+    padding: 30px;
+}
+.start-button {
+    background: rgb(151,75,0);
+    background: linear-gradient(270deg, rgba(151,75,0,1) 0%, rgba(255,213,0,1) 35%, rgba(151,75,0,1) 100%);
+    font-size: 40px;
+    width: 200px;
+    height: 50px;
+    padding: 0 30px;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+main {
+    background: rgb(27,7,66);
+    background: linear-gradient(0deg, rgba(27,7,66,1) 0%, rgba(134,124,155,1) 20%, rgba(193,188,204,1) 40%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-word-guess {
+    padding: 50px;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgb(151,75,0);
+    background: linear-gradient(270deg, rgba(151,75,0,1) 0%, rgba(255,213,0,1) 35%, rgba(151,75,0,1) 100%);
+}
+.word-blanks {
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+}
+.win-loss-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #1b0742;
+}
+.timer {
+    background-color: #1b0742;
+    padding: 10px;
+}
+.results {
+    height: auto;
+    width: auto;
+}
+.reset-button {
+    background: rgb(151,75,0);
+    background: linear-gradient(270deg, rgba(151,75,0,1) 0%, rgba(255,213,0,1) 35%, rgba(151,75,0,1) 100%);
+    font-size: 40px;
+    width: 200px;
+    height: 100px;
+    padding: 0 30px;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+.timer-count {
+    font-size: 75px;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    padding: 0 20px;
+}
