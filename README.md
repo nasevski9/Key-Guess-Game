@@ -1,4 +1,4 @@
-# Word Guess
+Word Guess
 
 This application is a timed game of guessing some words that are displayed as blanks.
 
